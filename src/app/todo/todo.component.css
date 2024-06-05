@@ -1,0 +1,58 @@
+/* Style the todo list container */
+div {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Style the input field */
+input[type="text"] {
+  width: calc(100% - 70px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style the add button */
+button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the todo list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the todo items */
+li {
+  margin-bottom: 5px;
+}
+
+/* Style the remove button */
+button.remove-btn {
+  margin-left: 10px;
+  padding: 4px 8px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button.remove-btn:hover {
+  background-color: #c82333;
+}
